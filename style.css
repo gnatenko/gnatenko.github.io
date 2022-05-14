@@ -16,8 +16,6 @@ body {
     margin: auto;
 
     max-width: 1000px;
-    min-width: 400px;
-    width: 80vw;
 }
 
 .flex-container a {
