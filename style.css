@@ -13,24 +13,36 @@ body {
     justify-content: center;
     align-content: center;
 
-    margin:auto;
+    margin: auto;
 
     max-width: 1000px;
     width: 80vw;
 }
 
+.flex-container a {
+    text-decoration: none;
+    color: black;
+}
+
 .flex-title {
     width: 100%;
     text-align: center;
-    margin: 2vw;
+    margin-bottom: 1vw;
+}
+
+.flex-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-title a:hover {
+    text-decoration: underline;
 }
 
 .flex-button {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    padding: auto;
 
     /*background-color: whitesmoke;*/
     border: 3px dashed lightseagreen;
@@ -40,19 +52,19 @@ body {
     max-width: 250px;
     min-width: 150px;
 
+    height: 20vw;
+    max-height: 250px;
+    min-height: 150px;
+
     margin: 2vw;
 
     font-size: 3vw;
 }
 
-.flex-button:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-}
-
 .flex-button:hover {
     border: 3px solid lightseagreen;
+    background-color: lightseagreen;
+    color: white;
 }
 
 .flex-photo {
@@ -62,6 +74,10 @@ body {
     width: 20vw;
     max-width: 250px;
     min-width: 150px;
+
+    height: 20vw;
+    max-height: 250px;
+    min-height: 150px;
 
     margin: 2vw;
 }
