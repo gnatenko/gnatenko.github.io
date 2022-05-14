@@ -5,8 +5,6 @@
 body {
     font-family: arial;
     margin: auto;
-
-    border: 5px solid pink;
 }
 
 .flex-container {
@@ -17,10 +15,8 @@ body {
 
     margin:auto;
 
-    border: 3px solid red;
-
     max-width: 1000px;
-
+    width: 80vw;
 }
 
 .flex-title {
@@ -40,11 +36,13 @@ body {
     border: 3px dashed lightseagreen;
     border-radius: 10%;
 
-    width: 20%;
-    max-width: 20vw;
+    width: 20vw;
+    max-width: 250px;
     min-width: 150px;
 
     margin: 2vw;
+
+    font-size: 3vw;
 }
 
 .flex-button:after {
@@ -61,8 +59,8 @@ body {
     border: 3px solid lightseagreen;
     border-radius: 10%;
 
-    width: 20%;
-    max-width: 20vw;
+    width: 20vw;
+    max-width: 250px;
     min-width: 150px;
 
     margin: 2vw;
