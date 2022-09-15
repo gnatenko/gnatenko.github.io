@@ -5,6 +5,8 @@ html, body {
 .main {
     margin: auto;
     max-width: 50rem;
+    padding: 10px;
+    border: 2px solid green;
 }
 
 .main a {
@@ -18,19 +20,19 @@ html, body {
 
 .head-plate {
     display: flex;
-    /*border: 2px solid red;*/
-    width: 40rem;
-    margin: auto;
+    border: 2px solid red;
     align-items: center;
 }
 
 .header {
     flex: 1;
-    max-width: 19rem;
+
+    max-width: 24rem;
 
     text-align: right;
-    padding-right: 1rem;
     margin-bottom: auto;
+
+    border: 1px solid blue;
 }
 
 .myphoto {
