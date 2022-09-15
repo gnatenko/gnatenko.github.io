@@ -24,12 +24,9 @@ html, body {
 
 .header {
     flex: 1;
-
     max-width: 24rem;
-
     text-align: right;
-    margin-bottom: auto;
-
+    margin-bottom: 1rem;
 }
 
 .myphoto {
