@@ -4,12 +4,12 @@ html {
 
 body {
     font-family: arial, sans-serif;
+    margin: 0;
 }
 
 .main {
     margin: auto;
     max-width: 50rem;
-    padding: 10px;
 }
 
 .main a {
@@ -44,8 +44,34 @@ body {
 .navigation-bar {
     display: flex;
 
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    font-size: 1.2rem;
+}
+
+.navigation-bar a {
+    flex: 1;
+    text-align: center;
+}
+
+.navigation-bar a:active {
+    
+}
+
+.quote {
+    text-align: right;
+}
+
+hr.top-bar {
+    border: 1rem solid LightSeaGreen;
+    margin: 0 0 2rem 0;
+}
+
+hr.normal {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border: 1px solid LightSeaGreen;
 }
 
 footer {
