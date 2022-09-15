@@ -62,7 +62,8 @@ body {
 
 hr.top-bar {
     border: 1rem solid LightSeaGreen;
-    margin: 0 0 2rem 0;
+    margin: 0 auto 2rem auto;
+    max-width: 48rem;
 }
 
 hr.normal {
