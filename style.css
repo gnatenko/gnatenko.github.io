@@ -1,4 +1,8 @@
-html, body {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: arial, sans-serif;
 }
 
@@ -35,6 +39,18 @@ html, body {
     border: 2px solid LightSeaGreen;
     border-radius: 1rem;
     margin-left: 1rem;
+}
+
+.navigation-bar {
+    display: flex;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
 }
 
 .container {
