@@ -1,0 +1,62 @@
+html, body {
+    font-family: arial, serif;
+}
+
+.main {
+    margin: auto;
+    max-width: 50rem;
+}
+
+.main a {
+    text-decoration: none;
+    color: LightSeaGreen;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+.head-plate {
+    display: flex;
+    /*border: 2px solid red;*/
+    width: 40rem;
+    margin: auto;
+    align-items: center;
+}
+
+.header {
+    flex: 1;
+    max-width: 19rem;
+
+    text-align: right;
+    padding-right: 1rem;
+    margin-bottom: auto;
+}
+
+.myphoto {
+    flex: 1;
+    max-width: 10rem;
+    border: 2px solid LightSeaGreen;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.container {
+    position: relative;
+    max-width: 200px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
