@@ -6,7 +6,6 @@ html, body {
     margin: auto;
     max-width: 50rem;
     padding: 10px;
-    border: 2px solid green;
 }
 
 .main a {
@@ -20,7 +19,6 @@ html, body {
 
 .head-plate {
     display: flex;
-    border: 2px solid red;
     align-items: center;
 }
 
@@ -32,7 +30,6 @@ html, body {
     text-align: right;
     margin-bottom: auto;
 
-    border: 1px solid blue;
 }
 
 .myphoto {
