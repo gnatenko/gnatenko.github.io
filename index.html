@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
     <hr class="top-bar">
     <div class="main">
         <div class="head-plate">
@@ -26,32 +27,35 @@
                 PhD student in Computer Science <br>
                 Bolzano, Italy
             </div>
-            <div class="container">
+            <!--<div class="container">
                 <img src="img/me.jpg" alt="Photo" class="myphoto">
                 <div class="overlay">
                     <img src="img/wanderbird.jpg" alt="Wanderbird" class="myphoto">
                 </div>
+            </div>-->
+            <img src="img/me.jpg" alt="Photo" class="myphoto">
+        </div>
+
+        <div id="navbar">
+            <div class="navigation-bar">
+                <a href="#top">
+                    Top
+                </a>
+
+                <a href="#research">
+                   Research
+                </a>
+
+                <a href="#etc">
+                    Etc
+                </a>
             </div>
-            <!--<img src="img/me.jpg" alt="Photo" class="myphoto">-->
+
+            <hr class="under-navbar">
         </div>
 
-        <div class="navigation-bar">
-            <a href="index.html" class="active">
-                Me
-            </a>
+        <div class="content-start"></div>
 
-            <a href="404.html" class="passive">
-                Research
-            </a>
-
-            <a href="404.html">
-                Stuff
-            </a>
-        </div>
-
-        <hr class="normal">
-
-        <div id="me"></div>
         <p>
             I&nbsplike puzzles, feta cheese and travelling. When I'm not day-dreaming
             (therefore, mostly at night) I&nbspstudy
@@ -106,12 +110,25 @@
                     agnatenko@unibz.it</a>.
             </p>
 
-        <!--<div id="research">
+        <hr class="normal">
+
+        <div id="research">
             <h3>Research</h3>
         </div>
-        -->
 
-        <!--<h3>Etc</h3>-->
+        <p style="text-align: center">
+            Give me some time, and I'll write something here.
+        </p>
+
+        <hr class="normal">
+
+        <div id="etc">
+            <h3>Etc</h3>
+        </div>
+
+        <p style="text-align: center">
+            Give me some time, and I'll write something here.
+        </p>
 
         <hr class="normal">
 
@@ -126,13 +143,28 @@
             </a>
         </div>
 
-       <!-- <footer>
-            Why is this page so simple?
-            Shouldn't a page of a computer scientist be super-cool?
-            Find all the answers
+       <footer>
+           <hr style="margin-bottom: 1rem">
+            If you think that a page of a computer scientist must be cooler, look
             <a href="https://motherfuckingwebsite.com" target="_blank">
-                here</a>.
-        </footer>-->
+                here
+            </a>
+        </footer>
     </div>
+
+    <script>
+        window.onscroll = function() {StickBar()};
+
+        let navbar = document.getElementById("navbar");
+        let sticky = navbar.offsetTop;
+
+        function StickBar() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 </html>

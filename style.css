@@ -25,6 +25,7 @@ body {
 .head-plate {
     display: flex;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 .header {
@@ -44,12 +45,20 @@ body {
     margin-left: 1rem;
 }
 
+#navbar {
+    width: 100%;
+    height: 3.4rem;
+    background-color: white;
+}
+
 .navigation-bar {
     display: flex;
-
-    margin-top: 2rem;
-
     font-size: 1.2rem;
+}
+
+hr.under-navbar {
+    margin: 0;
+    border: 1px solid LightSeaGreen;
 }
 
 .navigation-bar a {
@@ -66,6 +75,20 @@ body {
     background-color: LightSeaGreen;
     color: white;
     text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    max-width: 50rem;
+}
+
+.content-start {
+    padding-top: 2rem;
+}
+
+.sticky + .content-start {
+    padding-top: 5.4rem;
 }
 
 .quote {
@@ -86,8 +109,10 @@ hr.normal {
 }
 
 footer {
-    position: absolute;
-    bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .container {
