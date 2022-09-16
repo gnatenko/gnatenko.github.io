@@ -48,7 +48,6 @@ body {
     display: flex;
 
     margin-top: 3rem;
-    margin-bottom: 2rem;
 
     font-size: 1.2rem;
 }
@@ -56,6 +55,17 @@ body {
 .navigation-bar a {
     flex: 1;
     text-align: center;
+    padding: 1rem;
+}
+
+.navigation-bar a.active {
+    background-color: paleturquoise;
+}
+
+.navigation-bar a:hover {
+    background-color: LightSeaGreen;
+    color: white;
+    text-decoration: none;
 }
 
 .quote {
@@ -70,8 +80,8 @@ hr.top-bar {
 }
 
 hr.normal {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
     border: 1px solid LightSeaGreen;
 }
 
