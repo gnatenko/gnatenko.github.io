@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+:root {
+    --maincolor: LightSeaGreen;
+    --photoframecolor: LightSteelBlue;
+  }
+  
+
 .main {
     margin: auto;
     max-width: 50rem;
@@ -15,7 +21,7 @@ body {
 
 .main a {
     text-decoration: none;
-    color: LightSeaGreen;
+    color: var(--maincolor);
 }
 
 .main a:hover {
@@ -40,7 +46,7 @@ body {
     max-width: 10rem;
     min-width: 5rem;
 
-    border: 2px solid LightSeaGreen;
+    border: 2px solid var(--photoframecolor);
     border-radius: 1rem;
     margin-left: 1rem;
 }
@@ -55,7 +61,7 @@ body {
 }
 
 hr.under-navbar {
-    border: 1px solid LightSeaGreen;
+    border: 1px solid var(--maincolor);;
     margin: 0;
 }
 
@@ -70,7 +76,7 @@ hr.under-navbar {
 }
 
 .navigation-bar a:hover {
-    background-color: LightSeaGreen;
+    background-color: var(--maincolor);
     color: white;
     text-decoration: none;
 }
@@ -91,7 +97,7 @@ hr.under-navbar {
 }
 
 hr.top-bar {
-    border: 1rem solid LightSeaGreen;
+    border: 1rem solid var(--maincolor);
     margin: auto;
     max-width: 48rem;
 }
@@ -99,7 +105,7 @@ hr.top-bar {
 hr.normal {
     margin-top: 0;
     margin-bottom: 3rem;
-    border: 1px solid LightSeaGreen;
+    border: 1px solid var(--maincolor);
 }
 
 .mfw {
