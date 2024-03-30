@@ -8,8 +8,9 @@ body {
 }
 
 :root {
-    --maincolor: LightSeaGreen;
-    --photoframecolor: LightSteelBlue;
+    /*--maincolor: LightSeaGreen;*/
+    --maincolor: SteelBlue;
+    --photoframecolor: SteelBlue;
   }
   
 
