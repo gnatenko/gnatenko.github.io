@@ -93,8 +93,10 @@ hr.under-navbar {
 }
 
 .quote {
-    text-align: right;
-    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 hr.top-bar {
@@ -107,13 +109,6 @@ hr.normal {
     margin-top: 0;
     margin-bottom: 1rem;
     border: 1px solid var(--maincolor);
-}
-
-.mfw {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
 }
 
 .container {
