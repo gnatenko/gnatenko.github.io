@@ -89,7 +89,7 @@ hr.under-navbar {
 }
 
 .vspace {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .quote {
@@ -105,7 +105,7 @@ hr.top-bar {
 
 hr.normal {
     margin-top: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     border: 1px solid var(--maincolor);
 }
 
